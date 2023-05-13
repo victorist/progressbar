@@ -13,7 +13,7 @@ chat_id = int('251566896')
 iterable = 10
 for i in trange(iterable,ascii=False, token=token, chat_id=chat_id):
     # Описание будет отображаться слева
-    i.set_description('GEN %i' % i)
+    i.set_description('GEN %i' %i)
     sleep(1)
     """
     if i % 100 == 0:
